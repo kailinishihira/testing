@@ -14,8 +14,6 @@ namespace Testing.Tests
       //Arrange
       Test test = new Test ("testing");
       string expected = test.Tests("false");
-      List<string> expected = new List<string> {"expectedOutput"};
-      ClassName newVariable = new ClassName("input");
 
       //Act
       string actual = test.Tests()
