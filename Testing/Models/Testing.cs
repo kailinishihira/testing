@@ -20,7 +20,7 @@ namespace Testing.Models
 
     public string Tests()
     {
-      return "hello";
+      return "testing";
     }
   }
 }

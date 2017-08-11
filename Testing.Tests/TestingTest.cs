@@ -6,17 +6,17 @@ using Testing.Models;
 namespace Testing.Tests
 {
   [TestClass]
-  public class TestTest : IDisposable
+  public class TestTest
   {
     [TestMethod]
     public void Test()
     {
       //Arrange
       Test test = new Test ("testing");
-      string expected = test.Tests("false");
+      string expected = "testing";
 
       //Act
-      string actual = test.Tests()
+      string actual = test.Tests();
 
       //Assert
       Assert.AreEqual(expected, actual);
